@@ -37,7 +37,7 @@ class App(ctk.CTk):
     def __init__(self):
         super().__init__()
 
-        self.title(f"Luna Grabber Builder - Running on v{sys.version.split()[0]}")
+        self.title(f"18CRACKER - Running on v{sys.version.split()[0]}")
         self.geometry("1000x605")
         self.resizable(False, False)
         self.grid_rowconfigure(0, weight=1)
